@@ -1,3 +1,3 @@
 # andromeda-encryption-api
-Takes any string from the in game system (WIP) and a difficulty variable, returns a string that has been scrambled in a way reflecting the difficulty. 
-Example: Test => Stet 
+All game resources will go here. Guides, roadmaps, legacy code, and stories.
+And anything else we can think of. 
