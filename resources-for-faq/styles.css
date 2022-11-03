@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: white;
+}
+.nav {
+    border: 2px solid #d25500;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+.block {
+    border: 1px solid red;
+}
+.text-center {
+    text-align: center;
+}
+.title {
+    text-align:    center;
+}
+.faq-list {
+    list-style: none;
+}
+.bullet-point {
+    text-align: center;
+}
+.answer {
+    color: purple;
+}
+.volenteering-block {
+    height: 100vh;
+}
