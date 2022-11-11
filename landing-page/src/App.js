@@ -12,7 +12,6 @@ function App() {
       <Header />
       <Slider heading="game-features" slides={slideData} />
       <FAQ />
-      <Footer />
     </div>
   );
 }

@@ -2,14 +2,28 @@ body {
   background-color: black;
   color: white;
   overflow-x: hidden;
+  margin-bottom: 10vh;
 }
 /* header */
 .header-wrapper {
   text-align: center;
 }
-
-
-
+.hidden {
+  display: none;
+}
+/* FAQ */
+.FAQ-tabs {
+  margin-top: 5vh;
+  display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+}
+.tab {
+  text-align: center;
+}
+.tab:hover {
+  cursor: pointer;
+}
 /* footer */
 .footer {
   position: absolute;
