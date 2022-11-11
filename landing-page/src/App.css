@@ -1,5 +1,21 @@
 body {
   background-color: black;
   color: white;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+/* header */
+.header-wrapper {
+  text-align: center;
+}
+
+
+
+/* footer */
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
 }

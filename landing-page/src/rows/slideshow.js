@@ -3,25 +3,31 @@ import './slideshow.scss'
 export const slideData = [
     {
       index: 0,
-      headline: 'Command your fleet',
-      button: 'More information',
+      headline: 'Command your Fleet',
+      button: 'Learn about warfare',
       src: './ships.webp'
     },
     {
       index: 1,
-      headline: 'In The Wilderness',
-      button: 'Book travel',
-      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/forest.jpg'
+      headline: 'Explore the Universe',
+      button: 'Exploration events',
+      src: './exploration1.webp'
     },
     {
       index: 2,
-      headline: 'For Your Current Mood',
+      headline: 'Build a thriving space economy',
       button: 'Listen',
-      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/guitar.jpg'
+      src: './city.jpg'
     },
     {
       index: 3,
-      headline: 'Focus On The Writing',
+      headline: 'Perform Statecraft',
+      button: 'Get Focused',
+      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/typewriter.jpg'
+    },
+    {
+      index: 4,
+      headline: 'Number 5',
       button: 'Get Focused',
       src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/typewriter.jpg'
     }
@@ -200,4 +206,3 @@ export const slideData = [
     }
   }
   export default Slider
-  //ReactDOM.render(<Slider heading="Example Slider" slides={slideData} />, document.getElementById('app'));

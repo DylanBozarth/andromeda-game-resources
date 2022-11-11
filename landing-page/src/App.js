@@ -1,4 +1,6 @@
 import './App.css';
+import { FAQ } from './rows/faq';
+import { Footer } from './rows/footer';
 import { Header } from './rows/header';
 import Slider from './rows/slideshow';
 import { slideData } from './rows/slideshow';
@@ -8,7 +10,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Slider heading="Example Slider" slides={slideData} />
+      <Slider heading="game-features" slides={slideData} />
+      <FAQ />
+      <Footer />
     </div>
   );
 }
