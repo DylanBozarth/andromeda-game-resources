@@ -19,11 +19,11 @@ export const FAQ = () => {
                 <div onClick={() => setTab(4)} className='tab btn btn4'>Development</div>
             </div>
             <div className={tab === 1 ? 'display' : 'hidden'}>
-                {mechanics.map(() => {
+                {mechanics.map((mechanic) => {
                     return (
                         <div className='FAQ-block'>
-                            <div className='FAQ-questions' >{mechanics.Q}</div>
-                        <p className={FAQtoggle === mechanics.Q ? 'FAQ-answer' : 'hidden'} >{mechanics.A}</p>
+                            <div className='FAQ-questions' >{mechanic.Q}</div>
+                        <p className={FAQtoggle === mechanic.Q ? 'FAQ-answer' : 'hidden'} >{mechanic.A}</p>
                     </div>
                     )
                     
