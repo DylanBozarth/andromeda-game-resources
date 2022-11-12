@@ -11,7 +11,7 @@ export const slideData = [
       index: 1,
       headline: 'Explore the Universe',
       button: 'Exploration events',
-      src: './exploration1.webp'
+      src: './weirdbubble.webp'
     },
     {
       index: 2,
@@ -21,9 +21,9 @@ export const slideData = [
     },
     {
       index: 3,
-      headline: 'Perform Statecraft',
+      headline: 'Build Interplanetary Alliances',
       button: 'Get Focused',
-      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/typewriter.jpg'
+      src: './manyships.jpg'
     },
     {
       index: 4,

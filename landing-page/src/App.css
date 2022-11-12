@@ -12,8 +12,11 @@ body {
   display: none;
 }
 /* FAQ */
+.FAQ-title { 
+  margin-top: 8vh;
+  text-align: center;
+}
 .FAQ-tabs {
-  margin-top: 5vh;
   display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
@@ -23,6 +26,13 @@ body {
 }
 .tab:hover {
   cursor: pointer;
+}
+.FAQ-block {
+  margin-top: 5vh;
+}
+.FAQ-question {
+  text-align: center;
+  
 }
 /* footer */
 .footer {
