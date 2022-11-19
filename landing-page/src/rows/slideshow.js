@@ -4,32 +4,32 @@ export const slideData = [
     {
       index: 0,
       headline: 'Command your Fleet',
-      button: 'Learn about warfare',
+      button: 'Unrestricted Warfare',
       src: './ships.webp'
     },
     {
       index: 1,
       headline: 'Explore the Universe',
-      button: 'Exploration events',
+      button: 'Find Risk and Reward',
       src: './weirdbubble.webp'
     },
     {
       index: 2,
       headline: 'Build a thriving space economy',
-      button: 'Listen',
+      button: 'Make the most of your Empire',
       src: './city.jpg'
     },
     {
       index: 3,
       headline: 'Build Interplanetary Alliances',
-      button: 'Get Focused',
+      button: 'Bond, Betray, and Conquer',
       src: './manyships.jpg'
     },
     {
       index: 4,
-      headline: 'Number 5',
-      button: 'Get Focused',
-      src: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/typewriter.jpg'
+      headline: 'Enjoy Complete Freedom',
+      button: 'Space is not for the timid',
+      src: './aloneinspace.webp'
     }
   ]
   
