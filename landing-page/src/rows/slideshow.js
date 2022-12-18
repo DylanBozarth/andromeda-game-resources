@@ -164,7 +164,7 @@ export const slideData = [
     }
   
     render() {
-      const { current, direction } = this.state
+      const { current } = this.state
       const { slides, heading } = this.props 
       const headingId = `slider-heading__${heading.replace(/\s+/g, '-').toLowerCase()}`
       const wrapperTransform = {
@@ -174,7 +174,7 @@ export const slideData = [
       return (
         <div className='slider' aria-labelledby={headingId}>
           <ul className="slider__wrapper" style={wrapperTransform}>
-            <h3 id={headingId} class="visuallyhidden">{heading}</h3>
+            <h3 id={headingId} className="visuallyhidden">{heading}</h3>
             
             {slides.map(slide => {
               return (

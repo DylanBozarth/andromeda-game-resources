@@ -14,15 +14,15 @@ export const FAQ = () => {
         },
         {
             Q: 'What is the target demographic?',
-            A: ''
+            A: 'Due to the slow nature of our game the demographic we have in mind are casual players. We do not want a game that requires a 10 hour per day commitment to advance.'
         },
         {
             Q: 'What will players be doing most of the time?',
-            A: ''
+            A: 'Running an interstellar empire is no simple task. The captains of industry, leaders of scientific thought, and top brass of the military will need you to direct them.'
         },
         {
             Q: 'The game is free to play, Will this game be pay to win?',
-            A: 'No, our monetization system is designed to impact the game as little as possible.'
+            A: `No, our monetization system is designed to impact the game as little as possible. We aim to use a premium currency that can be used to in-game items from other players. The major limiting factor is that players will not be able to buy items that other players have not produced. If you want to buy 100 end-game ships, someone has to make them. It will also be possible to earn this premium currency by selling in-game items to others without ever pulling out the credit card.`
         },
         {
             Q: 'Will there be updates to the game and will you accept player feedback?',
@@ -31,8 +31,8 @@ export const FAQ = () => {
     ]
     const combat = [
         {
-            Q: '',
-            A: ''
+            Q: 'Will I be able to drive my ship and go pew-pew?',
+            A: 'No, This is a strategy game where you will be commanding fleets and not driving individual ships. Battles will be won by using tactics and not reflexes.'
         },
         {
             Q: '',
@@ -81,15 +81,22 @@ export const FAQ = () => {
                     return (
                         <div className='FAQ-block'>
                             <div className='FAQ-question' onClick={() => setFAQToggle(FAQtoggle === gameplay.Q ? null : gameplay.Q)}>{gameplay.Q}<div className={FAQtoggle === gameplay.Q ? 'minus' : 'cross'}></div></div>
-                            <p className={FAQtoggle === gameplay.Q ? 'FAQ-answer' : 'hidden'} >{gameplay.A}</p>
+                            <div className={FAQtoggle === gameplay.Q ? 'FAQ-answer' : 'hidden'} >{gameplay.A}</div>
                         </div>
                     )
 
                 })}
-
             </div>
             <div className={tab === 2 ? 'display' : 'hidden'}>
-                DISPLAY 2
+                {combat.map((combat) => {
+                    return (
+                        <div className='FAQ-block'>
+                            <div className='FAQ-question' onClick={() => setFAQToggle(FAQtoggle === combat.Q ? null : combat.Q)}>{combat.Q}<div className={FAQtoggle === combat.Q ? 'minus' : 'cross'}></div></div>
+                            <div className={FAQtoggle === combat.Q ? 'FAQ-answer' : 'hidden'} >{combat.A}</div>
+                        </div>
+                    )
+
+                })}
             </div>
             <div className={tab === 3 ? 'display' : 'hidden'}>
                 DISPLAY 3

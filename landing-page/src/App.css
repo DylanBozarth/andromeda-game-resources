@@ -4,6 +4,14 @@ body {
   overflow-x: hidden;
   margin-bottom: 10vh;
 }
+/* navigation */
+.nav-master {
+  position: sticky;
+  width: 100%;
+  border: 1px solid green;
+  top: 0;
+  z-index: 99;
+}
 /* header */
 .header-wrapper {
   text-align: center;
