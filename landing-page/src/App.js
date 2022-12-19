@@ -6,6 +6,7 @@ import { Nav } from './rows/nav';
 import Slider from './rows/slideshow';
 import { slideData } from './rows/slideshow';
 import "./rows/slideshow.scss"
+import { Volunteer } from './rows/volunteer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Slider heading="game-features" slides={slideData} />
       <FAQ />
       <About />
+      <Volunteer />
     </div>
   );
 }

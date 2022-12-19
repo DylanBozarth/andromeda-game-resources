@@ -25,6 +25,10 @@ export const FAQ = () => {
             A: `No, our monetization system is designed to impact the game as little as possible. We aim to use a premium currency that can be used to in-game items from other players. The major limiting factor is that players will not be able to buy items that other players have not produced. If you want to buy 100 end-game ships, someone has to make them. It will also be possible to earn this premium currency by selling in-game items to others without ever pulling out the credit card.`
         },
         {
+            Q: 'Will there be alien races/empires to play?',
+            A: 'No, everyone (for now) will play as humans. Although there will be aliens that you encounter as friends and foes, they will not be playable.'
+        },
+        {
             Q: 'Will there be updates to the game and will you accept player feedback?',
             A: 'Of course, We will constantly be updating the game to add features and remove bugs. We will also have forums for players to give us feedback.'
         }
@@ -35,16 +39,12 @@ export const FAQ = () => {
             A: 'No, This is a strategy game where you will be commanding fleets and not driving individual ships. Battles will be won by using tactics and not reflexes.'
         },
         {
-            Q: '',
-            A: ''
+            Q: 'Will I be able to attack other players?',
+            A: 'Yes, in any way you like. Raid their shipping, blockade their systems, bombard and invade their planets. Just be aware that they can do this to you too.'
         },
         {
-            Q: '',
-            A: ''
-        },
-        {
-            Q: '',
-            A: ''
+            Q: 'Will my population hate me for conquesting my enemies?',
+            A: 'That will depend on your government type. Some societies will be eager to fight while others will be more focused on trade. Each of these government types will have benefits and drawbacks, and can be changed every few days.'
         },
         {
             Q: '',
@@ -74,7 +74,7 @@ export const FAQ = () => {
                 <div onClick={() => setTab(1)} className='tab btn btn1'>Gameplay</div>
                 <div onClick={() => setTab(2)} className='tab btn btn2'>Combat</div>
                 <div onClick={() => setTab(3)} className='tab btn btn3'>Diplomacy</div>
-                <div onClick={() => setTab(4)} className='tab btn btn4'>Research</div>
+                <div onClick={() => setTab(4)} className='tab btn btn4'>Mechanics</div>
             </div>
             <div className={tab === 1 ? 'display' : 'hidden'}>
                 {gameplay.map((gameplay) => {
