@@ -21,7 +21,6 @@ Anti-slavery and anti-dehumanization faction. Hates slavery and hates overly exp
 They're very fanatical fighters.
 
 
-
 Non-human factions: 
 wai-xing
 Mysterious isloationist aliens that live entirely in zero gravity, not conolozing planets and living in the dead space between stars 
