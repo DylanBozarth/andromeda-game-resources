@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 3rem;
+}
+.main {
+  display: flex;
+}
+.main-title {
+  text-align: center;
+}
+.roadmap-box {
+  border: 1px solid white;
+  padding: 15px;
+  margin: 1rem;
+}
+.roadmap-title {
+  text-align:center;
+}
+.roadmap-desc {
+  text-align:center;
+}
+.finish {
+  text-align: right;
+  bottom: 0;
+  right:  0;
+  position: absolute;
+  padding: 5rem;
+}
